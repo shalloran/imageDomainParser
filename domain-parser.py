@@ -1,8 +1,3 @@
-# For most python users, you will likely have to:
-# pip install cv2, pytesseract
-
-# 19 seconds for 35 png images
-
 import cv2
 import pytesseract
 import re
