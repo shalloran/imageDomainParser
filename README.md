@@ -21,9 +21,9 @@ This script requires the following Python libraries:
 
 You can install these libraries using pip:
 
-\ bash
-pip install opencv-python pytesseract glob2 tqdm
-\
+`` bash
+  pip install opencv-python pytesseract glob2 tqdm
+`
 
 Note: The script also requires the Tesseract-OCR Engine to be installed on your system. You can download it from [here](https://github.com/tesseract-ocr/tesseract/wiki).
 
@@ -31,8 +31,8 @@ Note: The script also requires the Tesseract-OCR Engine to be installed on your 
 
 Run the script in your terminal:
 
-\ bash
-python domain-parser.py
-\
+`` bash
+  python domain-parser.py
+`
 
 When prompted, enter the path to the folder containing the images and the path and name for the output .csv file.
