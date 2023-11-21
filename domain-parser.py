@@ -8,8 +8,8 @@ from tqdm import tqdm
 
 # GLOBALS
 DOMAINS = []
-PATH_TO_FOLDER = input("Please enter the path to the folder containing the images: ")
-OUTPUT_FILE_NAME = input("Please enter the path and name for the output .csv file: ")
+PATH_TO_FOLDER = input("Enter path to folder containing images: ")
+OUTPUT_FILE_NAME = input("Enter path to output .csv file: ")
 
 # Function to read image and extract domains
 def domainExtractor(imagePath):
